@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+.main_l{
+    width:702px;
+	float:left;
+	background:#ffffff;	
+	border:1px solid #a6a6a6;
+}
+.main_l h2.weizhi{
+    color:#ffffff;
+	font-size:14px;
+	line-height:2em;
+
+	background:#878787 url(../images/sy_title.png) no-repeat 10px center;	
+	padding-left:30px;	
+	
+}
+.main_l h2.weizhi a{
+    color:#ffffff;
+}
+.list li{
+    float:left;
+	margin:5px;
+	_display:inline;
+}
+.list li a{ 
+    width:212px;
+	height:140px;
+	display:block;
+	background:#ececec;
+	text-align:center;
+	padding:6px;
+	line-height:2em;
+}
+.list li a:hover{ 
+    color:#ffffff;
+	background:#a31221;
+}
+.list li a img{
+	display:block;
+	width:212px;
+	height:121px;
+} 
+
+.pagelist{
+    margin-left:50px;
+	height:38px;
+}
+.pagelist li{
+	float:left;
+	border:1px solid #cccccc;	
+    margin:5px;		
+}
+.pagelist li:first-child{
+     padding:5px 10px;   
+}
+.pagelist li a{
+	display:block;
+    padding:5px 10px;
+}
+.pagelist li.thisclass a{
+    color:#ffffff;
+    background:#333333;
+}
+.dede_pages{
+   height:100%;
+   margin:30px auto;
+}
+.main_r{
+   width:270px;
+   float:right;
+   
+}
+.main_r_neka,.main_r_anli,.main_r_zuxin,.main_r_lianxi{
+    width:268px;
+
+	background:#ffffff;	
+	border:1px solid #a6a6a6;
+	float:right;	
+}
+.main_r_neka img{
+    margin:5px;
+}
+.main_r_neka p{
+    line-height:2em;
+	padding:5px;
+	text-indent:2em;
+}
+.main_r_neka h2,.main_r_anli h2 ,.main_r_zuxin h2,.main_r_lianxi h2{
+    color:#ffffff;
+	font-size:14px;
+	line-height:2em;
+	height:28px;
+	background:#878787;	
+	padding:0 10px;	
+	position:relative;	
+}
+.main_r_anli h2 span,.main_r_zuxin h2 span,.main_r_lianxi h2 span{
+	position:absolute;
+	top:0;
+	right:5px;
+}
+.main_r_anli h2 a,.main_r_zuxin h2 a,.main_r_lianxi h2 a{
+    color:#ffffff;
+}
+.main_r_anli h2 a:hover,.main_r_zuxin h2 a:hover,.main_r_lianxi h2 a:hover{
+    color:#a31221;
+}
+.main_r_anli ul,.main_r_zuxin ul{
+    margin:5px 0 0 5px;
+}
+.main_r_anli ul li,.main_r_zuxin ul li{
+    background:url(../images/jiantou.png) no-repeat left center;	
+	text-indent:1em;
+}
+.main_r_anli ul li a,.main_r_zuxin ul li a{
+    line-height:2em;
+}
+.main_r_lianxi p{
+    line-height:2em;
+	padding:5px;
+}
+
+.wz_title{
+    font-size:18px;
+	font-family:微软雅黑;
+	text-align:center;
+	line-height:36px;
+	margin-top:10px;
+}
+.wz_time{
+    text-align:center;
+	color:#686868;
+	border-bottom:1px dashed #686868;
+	padding:5px;
+	width:94%;
+	margin:0 auto;
+}
+.article{
+    padding:10px;
+	text-indent:2em;
+	line-height:2em;
+
+}
+.pre_next{
+    margin:10px 0 20px 10px;
+	line-height:1.5em;
+}

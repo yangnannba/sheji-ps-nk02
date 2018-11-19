@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+.naika_l{
+    width:702px;
+	height:288px;
+	float:left;
+	background:#ffffff;	
+	border:1px solid #a6a6a6;
+}
+.naika_r{
+    width:268px;
+	height:288px;
+	float:right;
+	background:#ffffff;
+	border:1px solid #a6a6a6;
+}
+.flash{
+    margin:5px;
+    float:left;
+	display:inline;
+}
+.naika_yw{
+    float:left;
+	width:400px;
+    margin:5px;	
+	display:inline;
+}
+.naika_yw h2{
+    color:#a31221;
+	font-size:14px;
+	line-height:2em;
+	border-bottom:1px solid #a6a6a6;
+	margin-bottom:5px;
+	position:relative;
+}
+.naika_yw strong{
+    float:left;
+}
+.naika_yw h2 span{
+	position:absolute;
+	top:0;
+	right:0;
+}
+.naika_yw h2 a{
+    color:#a31221;
+}
+.naika_yw ul li,.zxdt ul li{
+    background:url(../images/jiantou.png) no-repeat left center;	
+	text-indent:1em;
+	clear:both;
+    line-height:2em;	
+}
+.naika_yw ul li a,.zxdt ul li a{
+	_float:left;
+}
+
+.naika_yw ul li span{
+    color:#a31221;
+	font-size:12px;
+	float:right;
+	
+}
+
+.naika_r img{
+    margin:5px 5px 0 5px;
+}
+.naika_r p{
+    line-height:2em;
+	padding:0px 5px;
+}
+
+.fulx{
+    width:702px;
+	height:382px;
+	background:#ffffff;	
+	border:1px solid #a6a6a6;
+	float:left;	
+	
+}
+
+.fulx h2,.zxdt h2,.hxys h2,.sgal h2{
+    color:#ffffff;
+	font-size:14px;
+	height:28px;
+	line-height:2em;
+	position:relative;
+	background:#878787;	
+	padding:0 10px;	
+}
+.fulx h2 span,.zxdt h2 span,.sgal h2 span{
+
+	position:absolute;
+	top:0;
+	right:5px;
+	
+}
+.fulx h2 a,.zxdt h2 a,.sgal h2 a{
+    color:#ffffff;
+}
+.fulx h2 a:hover,.zxdt h2 a:hover,.sgal h2 a:hover{
+    color:#a31221;
+}
+.fulx ul li{
+    float:left;
+	margin:5px 0 0 5px;
+	_display:inline;
+}
+.zxdt{
+    width:268px;
+	height:382px;
+	background:#ffffff;	
+	border:1px solid #a6a6a6;
+	float:right;	
+}
+.zxdt ul{
+    margin:5px 0 0 5px;
+}
+.hxys{
+    width:978px;
+	height:354px;
+	border:1px solid #a6a6a6;
+    margin:10px auto 0;	
+	background:#ffffff;
+}
+
+.banner_tab{height:335px;float:right;width:269px;margin-top:5px;}
+.banner_tab ul {cursor:pointer;}
+.banner_tab li {float: left;display:inline;margin:0;padding:0;overflow:hidden;margin:0px 4px 4px 0;}
+.banner_tab a {width:130px;height:76px;display:block;margin:0;padding:0}
+.banner_tab  img{width:124px;height:70px;padding:2px;border:#999 1px solid;}
+.hidecontent {display:none;}
+.on{background-position:0px -100px;}
+.on img{border:1px solid #a31221;}
+.out{filter:alpha(opacity=50);opacity:0.5;}
+#con_tophome_1 img,#con_tophome_2 img,#con_tophome_3 img,#con_tophome_4 img,#con_tophome_5 img,#con_tophome_6 img,#con_tophome_7 img,#con_tophome_8 img{width:698px;height:316px;}
+.content{margin:0 auto;background:url(content_bg.png) repeat-x top;border-left:1px solid #bad1de;border-right:1px solid #bad1de;}
+.dklw{width:698px;height:316px;display:inline;overflow:hidden;float:left;margin-top:5px;margin-left:5px;}
+.dklw  div a{position:relative;display:block;}
+.dklw  div a span{position:absolute;left:0;bottom:0;font-size:18px;font-family:微软雅黑;line-height:36px;background:rgba(255,255,255,0.5);padding:0 10px;font-weight:bold;}
+
+.sgal{
+    width:978px;
+	height:370px;
+	border:1px solid #a6a6a6;
+    margin:10px auto 0;	
+	background:#ffffff;
+}
+.sgal ul li{
+    float:left;
+	margin:5px;
+	_display:inline;
+	
+}
+.sgal ul li a{ 
+    width:173px;
+	height:147px;
+	display:block;
+	background:#ececec;
+	text-align:center;
+	padding:6px;
+	line-height:2em;
+}
+.sgal ul li a:hover{ 
+    color:#ffffff;
+	background:#a31221;
+}
+.sgal ul li a img{
+
+	display:block;
+	width:173px;
+	height:121px;
+}  
+.dmzs{
+    width:978px;
+	height:140px;
+	border:1px solid #a6a6a6;
+    margin:10px auto 0;	
+	background:#ffffff;   
+}
+.dmzs ul{
+    padding:5px 0 0 5px;
+    float:left;  
+}
+.dmzs ul li{
+    width:108px;
+	height:38px;
+	line-height:38px;
+	color:#ffffff;
+	text-align:center;
+	margin-bottom:8px;
+	background:url(../images/dmzs_bg.png) no-repeat left -38px;
+}
+.dmzs_kuai{
+     float:left;  
+     margin-left:4px;	 
+}
+.dmzs_kuai img{
+    float:left;
+	display:inline;
+	margin:5px 5px;
+}
+.dmzs ul li.on{
+	background:url(../images/dmzs_bg.png) no-repeat left top;
+}
